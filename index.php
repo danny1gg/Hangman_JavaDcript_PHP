@@ -36,7 +36,7 @@
 		<h2 id ="displayCorrectWord"></h2>
 		<div id = "input_status">
 			Tipe a letter: 
-			<input id = "letterInput" type = "text" maxlength = "1" name = "letterInput" onInput = "validateLetter();">
+			<input id = "letterInput" type = "text" maxlength = "1" name = "letterInput" onInput = "validateLetter();" autofocus>
 		</div>
 		<h4 id = "displayEnteredLetters" style = "color: grey;"></h4>
 		<h4 id = "error" style = "color: red;"></h4>
